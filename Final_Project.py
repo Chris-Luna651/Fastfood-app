@@ -245,7 +245,7 @@ def main():
         # Display based on selected menu item
         if menu == "Home":
             st.title("Fast Food Restaurants across the USA")
-            st.Write("Name:Christopher Luna")
+            st.write("Name:Christopher Luna")
             st.write("Welcome to the Fast Food Restaurants analysis app. Use the navigation in the sidebar to explore queries.")
             # Display the image (Food.jpg should be in the same directory as the script or provide full path)
             st.image("Food.jpg", use_container_width=True)
